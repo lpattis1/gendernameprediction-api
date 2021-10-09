@@ -1,0 +1,35 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 5rem;
+}
+
+.output {
+  border: 0.3rem solid black;
+  width: 60%;
+  margin: auto !important;
+  margin-top: 5rem !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 2rem;
+}
+
+.names-here {
+  border-bottom: 0.1rem solid gray;
+  text-align: center;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.gender-emph,
+.prob-emph {
+  font-weight: 600;
+}
